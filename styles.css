@@ -76,6 +76,27 @@ header h1 span{
     color: black;
 }
 
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 2px solid hsl(0, 55%, 51%);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+input[type="text"]:focus {
+    outline: none;
+    border-color: hsl(0, 84%, 80%);
+}
+input[type="text"]::placeholder {
+    color: hsl(0, 55%, 51%);
+    opacity: 0.7;
+}
+input[type="text"]:focus::placeholder {
+    color: hsl(0, 84%, 80%);
+    opacity: 1;
+}
+
 button {
     margin-top: 20px;
     padding: 10px 20px;
