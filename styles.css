@@ -78,4 +78,22 @@ header h1 span{
 
 button {
     margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color:hsl(0, 55%, 51%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: hsl(0, 84%, 80%);
+}
+button:active {
+    background-color: hsl(0, 100%, 50%);
+}
+button:focus {
+    outline: none;
 }
